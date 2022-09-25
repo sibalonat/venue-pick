@@ -45,9 +45,9 @@ class Nav extends React.Component {
                                 style={{ display: 'flex' }}
                                 {...getRootProps({}, { suppressRefError: true })}
                             >
-                                <input {...getInputProps()} className="mt-0 border-2 border-cyan-900 rounded-full w-full py-1 px-3" placeholder={this.state.placeholder} />
+                                <input {...getInputProps()} className="mt-0 border-2 border-cyan-900 rounded-full w-full shadow-lg py-1 px-3" placeholder={this.state.placeholder} />
                             </div>
-                            <ul {...getMenuProps()} className="px-6 border-2 border-cyan-900 -mt-2 w-11/12 mx-auto">
+                            <ul {...getMenuProps()} className="px-6 border-2 border-cyan-900 -mt-2 w-11/12 mx-auto rounded-xl">
                                 {isOpen
                                     ? options
                                         .filter(item => !inputValue || item.value.includes(inputValue))

@@ -71,7 +71,7 @@ class App extends React.Component {
     const { selectedOption } = this.state;
     console.log(selectedOption);
     return (
-      <div className='flex flex-col justify-center w-screen'>
+      <div className='flex flex-col justify-center w-screen h-screen border-8 border-cyan-900 shadow-inner'>
         <Nav getVenues = {this.getVenues} />
         <Venues venues={this.state.venues}/>
       </div>
