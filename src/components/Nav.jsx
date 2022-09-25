@@ -9,7 +9,6 @@ const options = [
 class Nav extends React.Component {
     constructor(props) {
         super(props);
-        this.searchInput = React.createRef();
         this.state = {
             placeholder: "Search shop category. Ex. 'bakery', 'coffee', 'breakfast'",
             options: options,
