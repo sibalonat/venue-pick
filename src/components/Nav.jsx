@@ -6,7 +6,6 @@ const options = [
     { value: 'breakfast', label: 'Breakfast' },
 ];
 
-
 class Nav extends React.Component {
     constructor(props) {
         super(props);
