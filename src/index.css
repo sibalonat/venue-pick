@@ -50,28 +50,7 @@ input::placeholder {
 }
 
 /* search box */
-.rc-select-selection-search-input {
-  border-radius: 35px !important;
-  width: 100% !important;
-}
 
-.rc-select-selector {
-  position: relative;
-}
-
-.rc-select-selection-placeholder {
-  position: absolute;
-  width: 65%;
-  left: 8%;
-  top: 10px;
-  color: grey;
-  font-size: .8rem;
-}
-
-.rc-virtual-list {
-  width: 90% !important;
-  margin: 0 auto;
-}
 
 /* .rc-select-selection-item {
   position: absolute;
