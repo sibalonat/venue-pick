@@ -4,6 +4,8 @@ const options = [
     { value: 'bakery', label: 'Bakery' },
     { value: 'coffee', label: 'Coffee' },
     { value: 'breakfast', label: 'Breakfast' },
+    { value: 'realestate', label: 'Real Estate' },
+    { value: 'shopingcenter', label: 'Shoping Center' },
 ];
 
 class Nav extends React.Component {
